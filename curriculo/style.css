@@ -46,6 +46,9 @@ main section{
 }
 main article{
     text-align: center;
+    background-color: rgb(245, 238, 230);
+    border-radius: 23px;
+    margin: 0px 43px;
 }
 
 section > img{
