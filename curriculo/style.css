@@ -5,17 +5,23 @@
     --azul2:#010FEA;
     --azul3:#00076B;
     --azul4:#20256B;
-    --cinza:rgb(112, 112, 112);
+    --cinza:rgba(112, 112, 112, 0.856);
     --fonte:Arial,Verdana,Helvetica,sans-serif;
 }
 body{
     background-color: var(--cinza);
     font-family: var(--fonte);
 }
-
 h1{
     font-size: 2.1em;
     text-align: center;
+    color: var(--azul4);
+}
+h2{
+    text-align: inherit;
+}
+ins{
+    color: var(--azul4);
 }
 
 nav{
