@@ -48,7 +48,7 @@ main article{
     text-align: center;
     background-color: rgb(245, 238, 230);
     border-radius: 23px;
-    margin: 0px 43px;
+    margin: 0px 28px;
 }
 
 section > img{
@@ -57,6 +57,11 @@ section > img{
     border-radius: 50%;
     border: var(--cinza) solid;
     box-shadow: 1px 1px 8px 3px black;
+    margin-top: 15px;
 
 
+}
+article > ul{
+    list-style-position:inside ;
+    columns: 1;
 }
