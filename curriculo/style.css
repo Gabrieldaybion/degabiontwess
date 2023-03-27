@@ -41,6 +41,7 @@ main{
     border-radius: 0px 0px 42px 42px;
     padding-bottom: 15px;
     padding-top: 20px;
+    font-family: var(--fonte);
 }
 main section{
     text-align: center;
