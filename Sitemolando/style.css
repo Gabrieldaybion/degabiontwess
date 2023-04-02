@@ -8,7 +8,7 @@
 }
 /* Manutenção é importante */
 body{
-background-color: #80808079;
+    background-color: #80808079;
 }
 img.bb{
     max-width: 100px;
@@ -88,13 +88,27 @@ section#img1{
 main{
     margin-top: 10px;
     background-color: var(--corbody);
+    
+    
 }
 section.imgnormal{
-    display: block;
+    display: inline-block;
     text-align: center;
+    position: absolute;
+    left: 33vw;
+    
+    
 }
-img#bunita1{
+div#fo{
+    background-color: #84315B;
     width: 40vw;
+    border-radius: 10px;
+}
+    
+img#bunita1{
+    padding-top: 4px ;
+    width: 40vw;
+    border-radius: 10px 10px 0px 0px ;
 }
 footer{
 
