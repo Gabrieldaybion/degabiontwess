@@ -1,0 +1,29 @@
+@charset "UTF-8";
+:root{
+    --corbody:#CCCCCC;
+    --corbody2:#808080;
+    --cor01rosa:#FFB3D9;
+    --cor02rosa:#84315B;
+}
+/* Manutenção é importante */
+body{
+background-color: #80808079;
+}
+nav{
+
+}
+section.imagem{
+    background-color: var(--corbody2);
+}      
+section#img{
+    background-image: url("Imagens/Eu\ e\ molango\ 2.jpg");
+}
+section.imagem > p{
+    
+}
+main{
+
+}
+footer{
+
+}
