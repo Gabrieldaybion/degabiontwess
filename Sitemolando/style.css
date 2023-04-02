@@ -21,6 +21,12 @@ img.bb{
 div#mm{
     display: block;
     text-align: center;
+    color: #5f2441;
+    font-size: 1.4em;
+    
+}
+div#mm > h1{
+    text-shadow: 1px 1px 1px black;
 }
 div#mm > h1{
     margin:0px;
