@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 :root{
     --corbody:#CCCCCC;
@@ -9,15 +10,74 @@
 body{
 background-color: #80808079;
 }
+img.bb{
+    width: 100px;
+    height: 130px;
+    border: 3px solid var(--cor02rosa);
+    border-radius: 45%;
+    
+    
+}
+div#mm{
+    display: block;
+    text-align: center;
+}
+div#mm > h1{
+    margin:0px;
+    padding: 0px;
+}
 nav{
+    padding-top: 0px;
+    box-shadow: 1px 2px 6px 0px black;
+    border-radius: 7px 7px 7px 7px ;
 
+}
+section{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+    
+}
+div.links{
+    background-color: var(--cor01rosa);
+    border-radius: 0px 0px 7px 7px ;
+    padding: 4px;
+    text-align: center;
+    
+}
+div.links > a{
+    text-decoration: none;
+    padding-left: 9px;
+    color: rgb(230, 140, 140);
+    font-size: 1.2em;   
+    border-radius: 6px;   
+    transition: 0.6s;
+    
+}
+.links  a:hover{
+    background-color:#84315B ;
+    font-size: 1.3em;
+    box-shadow: 1px 1px 3px black;
 }
 section.imagem{
     background-color: var(--corbody2);
-}      
-section#img{
-    background-image: url("Imagens/Eu\ e\ molango\ 2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: top center;
+    border-radius: 7px 7px 0px 0px;
+   
+   
 }
+    
+      
+section#img1{
+    background-image: url("Imagens/morangocapa.jpg");
+    
+    
+}    
 section.imagem > p{
     
 }
