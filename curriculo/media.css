@@ -1,0 +1,90 @@
+@charset "UTF-8";
+ @media print{
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+ }
+ @media screen and (min-width:310px) and (max-width:400px) /* Celular pequeno */ {
+    div#escrito{
+        height: 196px;
+    }
+    .card{
+        width: 100px;
+        height: 100px;
+    }
+    #eu{
+        width:100px;
+        height: 100px;
+        border-radius: 35%;
+    }
+    h1#tt{
+        font-size: 20px;
+    }
+ }
+ @media screen and (min-width:401px) and (max-width:630px) /* celular Normal */ {
+    div#escrito{
+        height: 196px;
+    }
+ }
+ 
+ @media screen and (min-width:631px) and (max-width:1024px) /* Tablet */ {
+    h1#tt{
+        font-size: 45px;
+        width: 390px;
+    }
+    .card{
+        width: 150px;
+        height:150px;
+    }
+    #eu{
+        width:150px;
+        height: 150px;
+        border-radius: 35%;
+    }
+    div#escrito{
+        height: 280px;
+    }
+ }
+ @media screen and (min-width:1025px) and (max-width:1370px)/* Notebook */{
+    h1#tt{
+        font-size: 45px;
+        width: 390px;
+    }
+    .card{
+        width: 130px;
+        height: 130px;
+    }
+    #eu{
+        width:130px;
+        height: 130px;
+        border-radius: 35%;
+    }
+    div#escrito{
+        height: 280px;
+        width: 600px;
+    }
+ }
+@media screen and (min-width:1371px) {
+    h1#tt{
+        font-size: 55px;
+        width: 390px;
+    }
+    #escrito h2{
+        font-size: 35px;
+    }
+    .card{
+        width: 200px;
+        height: 200px;
+    }
+    #eu{
+        width:200px;
+        height: 200px;
+        border-radius: 35%;
+    }
+    div#escrito{
+        height: 380px;
+        width: 600px;
+    }
+}
+
+ 
