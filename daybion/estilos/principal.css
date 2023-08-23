@@ -1,0 +1,466 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+/*  Font nome daybion font-family: 'Coustard', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    --cor0:#29353c;
+    --cor1:#44576d;
+    --cor2:#768a96;
+    --cor3:#aac7d8;
+    --cor4:#dfebf6;
+    --cor5:#e6e6e6;
+}
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #ffffff;
+  
+}
+div.conta{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-template-rows: 10vh,70vh,10vh ;
+    grid-template-areas: "h h"
+                         "m m"
+                         "f f"
+                         ;
+
+
+}
+header{ 
+    display: flex;   
+    flex-direction: column;
+    padding:1px;
+    background-image:linear-gradient(78.3deg,#e6e6e6 50%,#aac7d8 50%,#44576d  );
+    background-attachment: fixed;
+    grid-area: h;
+    
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#ftfox{
+    width: 150px;
+    margin: 0px;
+    border-radius: 12px;
+}
+/* FAzer a letra escrever */
+h1#tt{
+    font-family: 'Coustard', serif;
+}
+h1#tt::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+@keyframes pisca {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* Fim letra escrever */
+div.lin{
+    margin-top: 2px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(151, 177, 192, 0.364);   
+    padding: 4px;
+    position: fixed;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.249);
+
+    
+}
+.lin2{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.lin2 > a{
+    margin-right: 12px;
+    text-decoration: none;
+    color: #29353c;
+    background-color: rgba(68, 87, 109, 0.548);
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: 1s;
+
+}
+.lin2 > a:hover{
+    
+    background-color: rgba(146, 158, 173, 0.644);
+    padding: 4.7px 10.5px;
+}
+#lobin{
+    width: 32px;
+    border-radius: 10px;
+    transition: 1s;
+    padding: 1px 1px;
+}
+#lobin:hover{
+    width: 29px;
+    padding: 1px 1px;
+}
+main{
+    
+    grid-area: m;
+    background-image: linear-gradient(120deg,rgba(138, 161, 175, 0.196) 50%,rgba(230, 230, 230, 0.141) 50%,rgba(68, 87, 109, 0.97) ) ;
+    text-align: center;   
+}
+.principal{
+    background-color: #44576d67;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+       
+}
+
+.textos{
+    margin-top: 12px;
+    width: 60%;
+    border-radius: 4px;
+
+}
+.textos >p{
+    font-size: 0.9em;
+}
+
+article{
+    margin-top: 59px;
+    width: 84%;
+    height: 190px;
+    background-color: rgba(68, 87, 109, 0.171);
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    border-radius: 13px;
+    margin-bottom: 30px;
+
+}
+#lobix{
+    margin-right: 12px;
+    width: 40%;
+    height: 110px;
+    background-color: transparent;
+}
+.projec{
+    margin-top: 80px;
+    width: 94vw;
+    height: 380px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(118, 138, 150, 0.094);
+    margin-bottom: 120px;
+    box-shadow: 0.9px 0.9px 5px rgba(0, 0, 0, 0.198) ;
+
+}
+.projec > h1{
+    margin: 0px;
+    
+
+}
+.projec > p{
+    font-size: 0.9em;
+}
+/* Sobre mim */
+.mim{
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 55px;
+    width: 65vw;
+    background-color: transparent;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.699);
+}
+.mim >h1{
+    text-shadow: 2px 2px 5px #29353c;
+}
+.mim > p{
+    font-size: 0.9em;
+}
+/* Sites de desafios */
+.sites-completos{
+    width: 94vw;
+    height: 300px;
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: "g e";
+    
+    box-shadow: 1px 1px 5px black;
+}
+.framex{
+    grid-area: g;
+    border-radius: 20px;
+    
+}
+#fotinx{
+    width: 100%;
+    height: 300px;
+    transition: 1s;
+    border-radius: 20px 0px 0px 20px ;
+    transition:5s;
+}
+.botoes{
+    height: 60%;
+    background-image: linear-gradient(220deg,rgba(138, 161, 175, 0.196) 50%,rgba(230, 230, 230, 0.141) 50%,rgba(68, 87, 109, 0.097) );
+    border-radius: 0px 20px 0px 0px;
+}
+.botoesres{
+    background-image: linear-gradient(120deg,rgba(138, 161, 175, 0.196) 50%,rgba(230, 230, 230, 0.141) 50%,rgba(68, 87, 109, 0.097) );
+    height: 36%;
+    border-radius: 0px 0px 20px 0px;
+}
+#btn{
+    border-radius: 6px;
+    font-size: 0.7em;
+    padding: 5px;
+    transition:1s;
+    width: 60px;
+    background-color:#e9f1f873;
+    box-shadow: 1px 1px 15px rgba(36, 36, 36, 0.751);
+    
+}
+#btn:hover{
+    width: 68px;
+}
+section{
+    
+    grid-area:e;
+    border-radius: 0px 20px 20px 0px;     
+}
+.habprinc{
+    width: 94vw;
+    height: 250px;
+    background-color: rgba(68, 87, 109, 0.127);
+    margin-bottom: 40px;
+}
+.hab{
+    width: 94vw;
+    height: 200px;
+    background-color: rgba(104, 128, 141, 0.147);
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.habimg{
+    width: 60%;
+    background-color: rgba(170, 199, 216, 0.377);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 10px;
+
+}
+.habimagens{
+    width: 84px;
+    height: 84px;
+
+}
+#imgpython{
+    background-image:url(../imagens/python.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: transparent;
+    transition: 1.2s;
+}
+#imgpython:hover{
+    width: 88px;
+    height: 88px;
+    background-color: rgba(170, 199, 216, 0.733);
+    border-radius: 12px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.664);
+}
+
+
+#imgjs{
+    background-image:url(../imagens/js.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: transparent;
+    transition: 1.2s;
+
+}
+#imgjs:hover{
+    width: 88px;
+    height: 88px;
+    background-color: rgba(170, 199, 216, 0.733);
+    border-radius: 12px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.664);
+}
+
+
+#imghtml{
+    
+    background-image:url(../imagens/html.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: transparent;
+    transition: 1.2s;   
+}
+#imghtml:hover{
+    width: 88px;
+    height: 88px;
+    background-color: rgba(170, 199, 216, 0.733);
+    border-radius: 12px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.664);
+}
+
+
+#imgcss{
+    background-image:url(../imagens/css.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: transparent;
+    transition: 1.2s; 
+}
+#imgcss:hover{
+    width: 88px;
+    height: 88px;
+    background-color: rgba(170, 199, 216, 0.733);
+    border-radius: 12px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.664);
+}
+
+
+.habtxt{
+    width: 40%;
+    height: 100%;
+    background-color: #aac7d8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.habtxt > p{
+    margin-top: 12px;
+    font-size: 0.8em;
+    text-align: center;
+    
+}
+.Projetos{
+    width: 89vw;
+    height: 490px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    padding: 12px;
+    box-shadow: 1px 1px 5px #00000041;
+    border-radius: 12px;
+}
+.Projetos > h1{
+
+}
+.Projetos > p{
+
+}
+.pincireal{
+    width: 90%;
+    height: 90%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 12px;
+
+}
+.realcima{
+    width: 100%;
+    height: 20%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnmy{
+    width: 40%;
+    height: 50%;
+    background-color: transparent;
+    box-shadow: 1px 1px 5px #768a96;
+    border-radius: 12px;
+    transition: 1.2s;
+}
+.btnmy:hover{
+    width: 40%;
+    height: 50%;
+    background-color: rgba(33, 83, 114, 0.198);
+    box-shadow: 2px 2px 5px #000000;
+}
+.realbaixo{
+    width: 100%;
+    height: 80%;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.realimg{
+    width:80%;
+    height:97%; 
+    border-radius: 12px;   
+
+}
+
+
+
+#myimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 49px;
+    align-items: center;
+    grid-area:f;
+    background-color: #aac7d8;
+
+}
+footer > p{
+    color: #64707a;
+    font-size: 0.9rem;
+}
+#txtfinal{
+    font-size: 0.5rem;
+}
