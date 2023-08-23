@@ -251,7 +251,7 @@ function sobrepy(){
     const ttx = document.getElementById('sbtec');
     ttx.style.textAlign = ''
     ttx.style.marginLeft = '0px'
-    ttx.innerHTML = '[Python é uma linguagem de programação de alto nível e fácil leitura, ela sonsegue criar, desde scripts simples até aplicações web complexas, inteligência artificial e ciência de dados..]'
+    ttx.innerHTML = '[Python é uma linguagem de programação de alto nível e fácil leitura, ela consegue criar, desde scripts simples até aplicações web complexas, inteligência artificial e ciência de dados..]'
 }
 function sobrepynor(){
     console.log('texto da imagem css está voltando');
