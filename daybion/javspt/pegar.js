@@ -285,7 +285,7 @@ function imor(){
     console.log('Trocou a img para imortal')
     const imgMy = document.getElementById('myimg');
     const aMy = document.getElementById('mylink');
-    imgMy.setAttribute('src', './imagens/site-imortal.PNG')
+    imgMy.setAttribute('src', './imagens/Site-imortal.PNG')
     aMy.setAttribute('href','https://gabrieldaybion.github.io/html-css/Meus%20projetos/land-page/')
 }
 
